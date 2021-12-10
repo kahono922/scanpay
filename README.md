@@ -3,6 +3,6 @@ A system that enables users to display a qr code to a scanner and payment is aut
 
 Todos
 ---
--[ ] validate user
--[ ] decrypt data
--[ ] perform transaction
+- [ ] validate user
+- [ ] decrypt data
+- [ ] perform transaction
