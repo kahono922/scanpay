@@ -9,7 +9,7 @@ import(
 
 func main(){
 	app := fiber.New()
-	database.connect()
+	database.Connect()
 	app.Get("/",func(c *fiber.Ctx)error{
 		return c.SendString("Hello")
 	})
