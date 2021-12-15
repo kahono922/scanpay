@@ -7,4 +7,5 @@ import(
 
 func SetUpRoutes(app *fiber.App){
 	app.Get("/",routerHandler.Home)
+	app.Static("/static","./static")
 }
